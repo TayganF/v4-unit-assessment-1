@@ -1,12 +1,12 @@
 //////////////////STEP 1////////////////////
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
-//CODE HERE
+var groceries = ['eggs', 'cheese', 'rice']
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
-//CODE HERE
+var yourName = 'Taygan'
 
 //////////////////STEP 3////////////////////
 /*
@@ -16,7 +16,9 @@
     the function would return 'Joseph's Grocery List'.
 */
 
-//CODE HERE
+function setGroceryListTitle(x) {
+    return yourName + groceries;
+}
 
 //////////////////STEP 4////////////////////
 /* 
@@ -26,7 +28,9 @@
     that takes care of some of the work for getting your page to display correctly.
 */
 
-//CODE HERE
+function addItem(item) {
+    
+}
 
 //////////////////STEP 5////////////////////
 /*

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(253, 110, 134);
+    margin: 0%;
+    border-radius: 10em black;
+}
+
+.header h1 {
+    width: 100%;
+    text-align: left;
+    padding: 25px;
+    line-height: 5em;
+    
+}
+.header2 h1 {
+    position: absolute;
+    top: 25px;
+    font-size: 25px;
+    width: 120%;
+    text-align: center;
+    word-spacing: 80px;
+}
+
+.container-one {
+    width: 100%;
+    border: 5px dotted black;
+    padding: 10px;
+    box-sizing: border-box;
+    float: none;
+}
+
+.container-two {
+    width: 100%;
+    border: 5px dotted black;
+    box-sizing: border-box;
+    clear: both;
+
+}
+div {
+    white-space: normal;
+}
+
+
